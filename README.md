@@ -1,1 +1,5 @@
-# admin-comment-notice
+# Admin Comment Notice
+
+Плагин для WordPress, позволяющий уведомлять пользователя о новых комментариях, если он имеет право их модерировать. Уведомления отображаются в административной части в сайдбаре и в тулбоксе.
+
+Admin Comment Notice создан в рамках изучения [Heartbeat API](https://wp-kama.ru/id_9759/heartbeat-api.html), как пример.
