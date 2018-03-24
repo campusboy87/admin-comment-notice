@@ -5,11 +5,11 @@ jQuery(document).on('heartbeat-tick', function (event, data) {
         return;
     }
 
-    console.log(data.acn);
-
+    // Находим контейнеры, в которых будем менять содержимое.
     var $menu = jQuery('#menu-comments').find('.wp-menu-name');
     var $bar = jQuery('#wp-admin-bar-comments').find('a');
 
+    // Изменяем содержимое контейнеров.
     jQuery($menu).html(data.acn.menu);
     jQuery($bar).html(data.acn.bar);
 });
